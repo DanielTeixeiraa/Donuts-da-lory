@@ -1,0 +1,42 @@
+{% extends "layout.njk" %}
+{% block head %}
+  <head>
+    <title>Donuts da Lory</title>
+  </head>
+{% endblock %}
+{%block content %}
+  <div class='central'>
+    <section>
+      <div class='banner'>
+        <div class="banner-text">
+          <span>
+            <h2>Os Melhores Donuts de Campos</h2>
+            <p class='banner-text-p'>
+              Cuidado! Donuts extremamente deliciosos. Feitos com muito amor!
+            </p>
+          </span>
+        </div>
+
+        <div class="banner-chefe">
+          <img class="img-chef" src="image/logo.png" alt="Chefe">
+        </div>
+      </div>
+    </section>
+    <div>
+      <h1 class="conteudo-title">Mais acessados</h1>
+    </div>
+    <section class="cards">
+      {% for data in data %}
+        <div class="card" id="{{data.id}}">
+          <div class="card-image">
+            <img src="/image/{{data.id}}.jpg" alt="">
+          </div>
+          <div class="card-content">
+            <p class="card-info">{{data.info}}</p>
+            <p class="card-title">{{data.title}}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+  </div>
+{% endblock %}
