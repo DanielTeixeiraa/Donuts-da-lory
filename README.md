@@ -30,7 +30,7 @@
 
 ## 💻 Sobre o projeto
 
-🍩Donuts Da Lory - Primeiro um site que eu fiz para treinar meus conhecimentos em HTML, CSS, JavaScript e Node, como também um pouco de responsividade(nao sabendo nada quando comecei) usando como layout o foodfy. Com objetivo de complementar o negócio de donuts de uma amiga.
+🍩Donuts Da Lory - Primeiro site que eu faço para treinar meus conhecimentos em HTML, CSS, JavaScript e Node, como também um pouco de responsividade(nao sabendo nada quando comecei) usando como layout o foodfy. Com objetivo de complementar o negócio de donuts de uma amiga.
 
 
 Funcionalidades:
