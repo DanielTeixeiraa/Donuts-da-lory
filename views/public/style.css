@@ -1,5 +1,15 @@
 body{
   background-color: #EFB4C1;
+  position: relative;
+  padding-bottom: 6rem;
+}
+
+.navegacao {
+  text-align: center;
+}
+
+.nav-menu>li {
+  padding: 0 0 0 30px;
 }
 
 header {
@@ -99,20 +109,25 @@ header {
 
 .cards{
   margin-top: 2rem;
-  width: 300px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .card{
-  display: grid;
-  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 13.5px;
 }
+
 .card-image img{
-  width: 300px; 
+  cursor: pointer;
+  width: 283px; 
   height: 140px; 
   border-radius: 15px;
 }
+
 .card-content{
   margin-top: 20px;
 }
@@ -130,6 +145,10 @@ header {
   margin-top: 20px;
   height: 62px;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
   font-size: 21px;
   background-color: rgba(0, 0, 0, 0.1);
 }
@@ -138,8 +157,70 @@ header {
   padding-top: 20px;
   color: #222221;
 }
+.sobre{
+  background: #fbdfdb;
+}
+.back-title{
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 20px 20px;
+  margin-bottom: 3rem;
+}
+.sobre-content{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  }
 
-@media (max-width: 40em) and (min-width:0em) {
+  .sobre-title{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    padding-bottom: 2rem;
+  }
+  .sobre-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding-bottom: 2rem;
+  }
+
+.social{
+text-align: center;
+}
+.social a{
+  text-align: center;
+}
+.fita{
+  background-color: violet;
+  color:aliceblue;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 8px;
+}
+.wpp{
+width: 8%;
+}
+.insta{
+width: 8%;
+margin-right: 60px;
+}
+
+@media (max-width: 29em) and (min-width:0em) {
+  
+  .social{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .insta{
+    margin-top: 1rem;
+    margin-right:0;
+    width: 25%;
+    padding-bottom: 1rem;
+  }
+  .wpp{
+    width: 25%;
+  }
   
   .central {
     max-width: 540px;
@@ -209,25 +290,28 @@ header {
 
   .cards{
     margin-top: 2rem;
-    width: 300px;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
   }
 
 }
 
 
-@media(max-width: 55em) and (min-width:40em) {
+@media (max-width: 39em) and (min-width: 30em){
+  .card{
+    padding-left: 30px;
+  }
+}
+
+
+@media(max-width: 52em) and (min-width:40em) {
   .central {
     max-width: 720px;
   }
+  .img-chef {
+    width: 90%;
+    padding-left: 122px;
+}
   .cards{
     margin-top: 2rem;
-    width: 300px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
   }
 
   header .logo {
@@ -253,6 +337,11 @@ header {
 
   .banner .banner-chefe {
     text-align: center;
+  }
+
+  .insta,
+  .wpp{
+    width: 20%;
   }
 }
 

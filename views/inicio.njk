@@ -28,12 +28,14 @@
     <section class="cards">
       {% for data in data %}
         <div class="card" id="{{data.id}}">
-          <div class="card-image">
-            <img src="/image/{{data.id}}.jpg" alt="">
-          </div>
-          <div class="card-content">
-            <p class="card-info">{{data.info}}</p>
-            <p class="card-title">{{data.title}}</p>
+          <div class="space-card">
+            <div class="card-image">
+              <img src="/image/{{data.id}}.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <p class="card-info">{{data.info}}</p>
+              <p class="card-title">{{data.title}}</p>
+            </div>
           </div>
         </div>
       {% endfor %}
