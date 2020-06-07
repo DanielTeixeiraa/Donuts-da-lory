@@ -19,10 +19,15 @@ app.get("/", (req,res) =>{
 })
 
 app.get('/sobre', (req,res) =>{
-  return res.render('sobre')
+  return res.render('sobre')  
 })
+
 app.get('/donuts', (req,res) =>{
   return res.render('donuts',{data:data})
+})
+
+app.get('/donut', (req,res) =>{
+  return res.render('donut')
 })
 
 app.listen(PORT, () =>{

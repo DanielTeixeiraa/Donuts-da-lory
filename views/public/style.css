@@ -15,7 +15,7 @@ body{
 header {
   width: 100%;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .central {
@@ -36,6 +36,7 @@ header {
 }
 
 .central .logo {
+  margin-right: 1rem;
   width: 13%;
 }
 
@@ -58,7 +59,7 @@ header {
   -moz-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
-  color: #df0000;
+  color: #f9ed69;
 }
 
 
