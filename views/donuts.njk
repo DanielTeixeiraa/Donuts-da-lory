@@ -1,0 +1,27 @@
+{% extends "layout.njk" %}
+{% block head %}
+  <head>
+    <title>Donuts da Lory</title>
+  </head>
+{% endblock %}
+{%block content %}
+  <body class="donuts-page">
+    <div class='central'>
+      <section class="cards">
+        {% for datas in data %}
+          <div class="card" id="{{datas.id}}">
+            <div class="space-card">
+              <div class="card-image">
+                <img src="/image/{{datas.id}}.jpg" alt="">
+              </div>
+              <div class="card-content">
+                <p class="card-info">{{datas.info}}</p>
+                <p class="card-title">{{datas.title}}</p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </section>
+    </div>
+  {% endblock %}
+</body>

@@ -277,6 +277,11 @@ margin-right: 60px;
   .img-chef{
     width:50%;
   }
+
+  .card-donuts{
+    display: flex;
+    justify-content: center;
+  }
   
 
   header .menu a {
@@ -292,6 +297,9 @@ margin-right: 60px;
     margin-top: 2rem;
   }
 
+}
+.donuts-page{
+  background-color: plum;
 }
 
 

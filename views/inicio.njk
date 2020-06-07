@@ -26,18 +26,20 @@
       <h1 class="conteudo-title">Mais acessados</h1>
     </div>
     <section class="cards">
-      {% for data in data %}
-        <div class="card" id="{{data.id}}">
-          <div class="space-card">
-            <div class="card-image">
-              <img src="/image/{{data.id}}.jpg" alt="">
-            </div>
-            <div class="card-content">
-              <p class="card-info">{{data.info}}</p>
-              <p class="card-title">{{data.title}}</p>
+      {% for datas in data %}
+        {% if datas.id < 7 %}
+          <div class="card" id="{{datas.id}}">
+            <div class="space-card">
+              <div class="card-image">
+                <img src="/image/{{datas.id}}.jpg" alt="">
+              </div>
+              <div class="card-content">
+                <p class="card-info">{{datas.info}}</p>
+                <p class="card-title">{{datas.title}}</p>
+              </div>
             </div>
           </div>
-        </div>
+        {% endif %}
       {% endfor %}
     </section>
   </div>
