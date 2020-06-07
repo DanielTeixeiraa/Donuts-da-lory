@@ -1,5 +1,5 @@
 body{
-  background-color: #EFB4C1;
+  background-color: #a8d8ea;
   position: relative;
   padding-bottom: 6rem;
 }
@@ -64,7 +64,7 @@ header {
 
 .banner {
   width: 100%;
-  background: #fbdfdb;
+  background: #fcbad3;
   border-radius: 30px;
   padding: 15px 0px 0 11px;
   margin-bottom: 3rem;
@@ -158,10 +158,10 @@ header {
   color: #222221;
 }
 .sobre{
-  background: #fbdfdb;
+  background: #ffc7c7;
 }
 .back-title{
-  background-color: aliceblue;
+  background-color: #ffe2e2;
   border-radius: 20px;
   padding: 20px 20px;
   margin-bottom: 3rem;
@@ -191,8 +191,8 @@ text-align: center;
   text-align: center;
 }
 .fita{
-  background-color: violet;
-  color:aliceblue;
+  background-color: #f6f6f6;
+  color:black;
   text-align: center;
   font-size: 30px;
   padding-bottom: 8px;
@@ -205,7 +205,7 @@ width: 8%;
 margin-right: 60px;
 }
 
-@media (max-width: 29em) and (min-width:0em) {
+@media (max-width: 39em) and (min-width:0em) {
   
   .social{
     display: flex;
@@ -299,24 +299,26 @@ margin-right: 60px;
 
 }
 .donuts-page{
-  background-color: plum;
+  background-color: #fcbad3;
 }
 
 
-@media (max-width: 39em) and (min-width: 30em){
-  .card{
-    padding-left: 30px;
-  }
-}
 
 
-@media(max-width: 52em) and (min-width:40em) {
+
+@media(max-width: 59em) and (min-width:40em) {
   .central {
     max-width: 720px;
   }
   .img-chef {
     width: 90%;
     padding-left: 122px;
+}
+  .logo-img{
+  max-width: 134%;
+}
+.central .logo{
+  margin-right: 1rem;
 }
   .cards{
     margin-top: 2rem;

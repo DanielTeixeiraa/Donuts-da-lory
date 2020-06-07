@@ -1,8 +1,8 @@
 const express = require("express");      
 const nunjucks = require("nunjucks");           
-const PORT = process.env.PORT ||  5000;         
-      
-const app = express();    
+const PORT = process.env.PORT ||  5000;          
+       
+const app = express();     
 const data = require("./data");   
   
 app.use(express.static("../views/public")); 
