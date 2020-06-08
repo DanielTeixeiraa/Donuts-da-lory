@@ -44,14 +44,20 @@ Funcionalidades:
 
 ### Web(mobile)
 
-<p align="center">  
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">  
   <img alt="Donuts-Da-Lory" title="#Donuts-Da-Lory" src="./github-assets/mob.png" width="200px">
+</p>
+<p align="center">  
+  <img alt="Donuts-Da-Lory" title="#Donuts-Da-Lory" src="./github-assets/mob2.png" width="200px">
 </p>
 
 ### Web
 
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+<p align="center"
+
  <img alt="Donuts-Da-Lory" title="Donuts-Da-Lory" src="./github-assets/inicio.png" width="50%">
+
+ <img alt="Donuts-Da-Lory" title="Donuts-Da-Lory" src="./github-assets/unico.png" width="50.4%">
 </p>
 
 ## 🛠 Tecnologias
