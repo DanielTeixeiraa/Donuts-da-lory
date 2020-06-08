@@ -1,0 +1,126 @@
+.donut{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.donut-img img{
+  border-radius: 30px;
+  height: 55vh;
+  width: 100%;
+}
+
+.social-d{
+  display: flex;
+  justify-content: center;
+}
+
+.social-d a{
+  margin-top: 24px;
+  background-color: burlywood;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  width: 40%;
+  border-radius: 14px;
+  text-decoration: none;
+}
+
+.donut-coment h3,
+.donut-coment p{
+  font-size: 25px;
+}
+.donut-info{
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+
+.donut-info p{
+  font-size: 20px;
+}
+
+
+.fita{
+  margin-top: 20px;
+  background-color: none;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+@media (max-width: 39em) and (min-width:0em) {
+  .social-d a{
+    width: 100%;
+  }
+
+  .donut-coment h3,
+.donut-coment p{
+  font-size: 20px;
+}
+.donut-info{
+  font-size: 25px;
+}
+}

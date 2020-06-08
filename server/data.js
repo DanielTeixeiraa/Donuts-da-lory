@@ -35,8 +35,8 @@ module.exports = [
     title:"por Lorena Pessanha",
   },
   {
-    id:"8",
-    info:"Donuts de Coco",
+    id:"8", 
+    info:"Donuts de Coco", 
     title:"por Lorena Pessanha",
   },
   { 

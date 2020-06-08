@@ -1,7 +1,13 @@
 body{
-  background-color: #a8d8ea;
+  background-color:#f6f6f6;
   position: relative;
   padding-bottom: 6rem;
+}
+.sec-banner{
+  -webkit-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.53);
+  -moz-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.53);
+  box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.53);
+border-radius: 30px;
 }
 
 .navegacao {
@@ -71,6 +77,7 @@ header {
   margin-bottom: 3rem;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .banner .banner-text {
@@ -119,7 +126,7 @@ header {
 .card{
   display: flex;
   flex-direction: column;
-  padding: 13.5px;
+  padding: 12px;
 }
 
 .card-image img{
@@ -136,11 +143,13 @@ header {
   font-size: 20px;
   color: #111111;
   display: grid;
+  font-weight: bold;
   grid-template-columns: 1fr 1fr;
 }
 .card-title{
   font-size: 21px;
-  color: rgba(13, 15, 15, 0.8)
+  font-weight: bold;
+  color: black;
 }
 .rodape{
   margin-top: 20px;
@@ -166,6 +175,9 @@ header {
   border-radius: 20px;
   padding: 20px 20px;
   margin-bottom: 3rem;
+  -webkit-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.25);
+  box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.25);
 }
 .sobre-content{
   padding: 1rem;
@@ -183,7 +195,7 @@ header {
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
   padding-bottom: 2rem;
-  }
+  } 
 
 .social{
 text-align: center;
@@ -207,6 +219,9 @@ margin-right: 60px;
 }
 
 @media (max-width: 39em) and (min-width:0em) {
+  .social-d a{
+    width: 50%;
+  }
   
   .social{
     display: flex;
@@ -226,9 +241,13 @@ margin-right: 60px;
   .central {
     max-width: 540px;
   }
-
+.sec-banner{
+ -webkit-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.28);
+-moz-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.28);
+box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.28);
+}
   .banner{
-    width: 98%;
+    width: 100%;
     padding: 15px 21px 0 11px;
   }
 
