@@ -22,15 +22,15 @@
         </div>
       </div>
     </section>
-    <div> 
+    <div>
       <h1 class="conteudo-title">Mais acessados</h1>
     </div>
     <section class="cards">
       {% for datas in data %}
         {% if datas.id < 7 %}
-          <div class="card" id="{{datas.id}}">
+          <div class="card">
             <div class="space-card">
-              <div class="card-image">
+              <div class="card-image" id="{{datas.id}}">
                 <img src="/image/{{datas.id}}.jpg" alt="">
               </div>
               <div class="card-content">
@@ -43,4 +43,5 @@
       {% endfor %}
     </section>
   </div>
+  <script src="scripts.js"></script>
 {% endblock %}

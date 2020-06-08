@@ -113,7 +113,7 @@
 
 @media (max-width: 39em) and (min-width:0em) {
   .social-d a{
-    width: 100%;
+    width: 100%; 
   }
 
   .donut-coment h3,

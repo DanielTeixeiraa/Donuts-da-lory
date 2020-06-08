@@ -9,9 +9,9 @@
     <div class='central'>
       <section class="cards">
         {% for datas in data %}
-          <div class="card" id="{{datas.id}}">
-            <div class="space-card">
-              <div class="card-image">
+          <div class="card">
+            <div class="space-card" >
+              <div class="card-image" id="{{datas.id}}">
                 <img src="/image/{{datas.id}}.jpg" alt="">
               </div>
               <div class="card-content">
@@ -22,6 +22,8 @@
           </div>
         {% endfor %}
       </section>
+
     </div>
+    <script src="scripts.js"></script>
   {% endblock %}
 </body>
