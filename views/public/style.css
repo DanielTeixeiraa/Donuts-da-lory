@@ -1,20 +1,17 @@
-body{
-  background-color:#f6f6f6;
+body {
+  background-color: #f6f6f6;
   position: relative;
   padding-bottom: 6rem;
 }
-.sec-banner{
-  -webkit-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.53);
-  -moz-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.53);
-  box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.53);
-border-radius: 30px;
-}
+
+
+
 
 .navegacao {
   text-align: center;
 }
 
-.nav-menu>li {
+.nav-menu > li {
   padding: 0 0 0 30px;
 }
 
@@ -68,7 +65,6 @@ header {
   color: #f9ed69;
 }
 
-
 .banner {
   width: 100%;
   background: #fcbad3;
@@ -77,8 +73,12 @@ header {
   margin-bottom: 3rem;
   display: flex;
   flex-wrap: wrap;
-  
+  -webkit-box-shadow: -4px 10px 42px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: -4px 10px 42px 0px rgba(0, 0, 0, 0.53);
+  box-shadow: -4px 10px 42px 0px rgba(0, 0, 0, 0.53);
+  border-radius: 30px;
 }
+
 
 .banner .banner-text {
   margin-bottom: 2rem;
@@ -89,15 +89,15 @@ header {
   justify-content: flex-start;
 }
 
-.banner-text-p{
+.banner-text-p {
   font-size: 35px;
   padding-top: 20px;
   line-height: 32px;
   color: rgb(13, 17, 17, 0.8);
 }
 
-.img-chef{
-  width:90%;
+.img-chef {
+  width: 90%;
 }
 
 .banner .banner-text h2 {
@@ -107,15 +107,13 @@ header {
   margin-bottom: 10px;
 }
 
-
-
-.conteudo-title{
+.conteudo-title {
   margin-top: 50px;
   font-size: 32px;
   font-weight: bold;
 }
 
-.cards{
+.cards {
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
@@ -123,35 +121,35 @@ header {
   justify-content: center;
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: column;
   padding: 12px;
 }
 
-.card-image img{
+.card-image img {
   cursor: pointer;
-  width: 283px; 
-  height: 140px; 
+  width: 283px;
+  height: 140px;
   border-radius: 15px;
 }
 
-.card-content{
+.card-content {
   margin-top: 20px;
 }
-.card-info{
+.card-info {
   font-size: 20px;
   color: #111111;
   display: grid;
   font-weight: bold;
   grid-template-columns: 1fr 1fr;
 }
-.card-title{
+.card-title {
   font-size: 21px;
   font-weight: bold;
   color: black;
 }
-.rodape{
+.rodape {
   margin-top: 20px;
   height: 62px;
   width: 100%;
@@ -162,91 +160,88 @@ header {
   font-size: 21px;
   background-color: rgba(0, 0, 0, 0.1);
 }
-.rodape p{
+.rodape p {
   text-align: center;
   padding-top: 20px;
   color: #222221;
 }
-.sobre{
+.sobre {
   background: #ffc7c7;
 }
-.back-title{
+.back-title {
   background-color: #ffe2e2;
   border-radius: 20px;
   padding: 20px 20px;
   margin-bottom: 3rem;
-  -webkit-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.25);
-  -moz-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.25);
-  box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.25);
+  -webkit-box-shadow: -4px 10px 42px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: -4px 10px 42px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: -4px 10px 42px 0px rgba(0, 0, 0, 0.25);
 }
-.sobre-content{
+.sobre-content {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  }
+}
 
-  .sobre-title{
-    font-weight: bold;
-    color: black;
-    font-size: 30px;
-    padding-bottom: 2rem;
-  }
-  .sobre-text{
-  font-family: 'Roboto', sans-serif;
+.sobre-title {
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  padding-bottom: 2rem;
+}
+.sobre-text {
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
   padding-bottom: 2rem;
-  } 
-
-.social{
-text-align: center;
 }
-.social a{
+
+.social {
   text-align: center;
 }
-.fita{
+.social a {
+  width: 50%;
+  text-align: center;
+}
+.fita {
   background-color: #f6f6f6;
-  color:black;
+  color: black;
   text-align: center;
   font-size: 30px;
   padding-bottom: 8px;
 }
-.wpp{
-width: 8%;
+.wpp {
+  width: 8%;
 }
-.insta{
-width: 8%;
-margin-right: 60px;
+.insta {
+  width: 8%;
 }
 
-@media (max-width: 39em) and (min-width:0em) {
-  .social-d a{
+@media (max-width: 39em) and (min-width: 0em) {
+  .social-d a {
     width: 50%;
   }
-  
-  .social{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .insta{
+
+
+  .insta {
     margin-top: 1rem;
-    margin-right:0;
+    margin-right: 0;
     width: 25%;
     padding-bottom: 1rem;
   }
-  .wpp{
+  .wpp {
     width: 25%;
   }
-  
+
   .central {
     max-width: 540px;
   }
-.sec-banner{
- -webkit-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.28);
--moz-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.28);
-box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.28);
-}
-  .banner{
+  .banner {
+    -webkit-box-shadow: -4px 10px 42px 0px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: -4px 10px 42px 0px rgba(0, 0, 0, 0.28);
+    box-shadow: -4px 10px 42px 0px rgba(0, 0, 0, 0.28);
+  }
+
+  .banner {
     width: 100%;
     padding: 15px 21px 0 11px;
   }
@@ -257,7 +252,7 @@ box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.28);
     padding-left: 0rem;
   }
 
-  .header-sub{
+  .header-sub {
     padding-left: 21px;
   }
 
@@ -266,7 +261,7 @@ box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.28);
     margin-left: 8px;
   }
 
-  .header .header-sub a{
+  .header .header-sub a {
     font-size: 30px;
     margin-left: 0;
     padding-left: 0;
@@ -274,12 +269,11 @@ box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.28);
     padding-top: 21px;
   }
 
-  
   .banner .banner-text {
     margin-bottom: 0;
     padding-left: 2.5rem;
   }
-  
+
   .banner .banner-text h2 {
     font-size: 23px;
     margin-bottom: 9px;
@@ -293,16 +287,15 @@ box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.28);
   .banner .banner-chefe {
     text-align: center;
   }
-  
-  .img-chef{
-    width:50%;
+
+  .img-chef {
+    width: 50%;
   }
 
-  .card-donuts{
+  .card-donuts {
     display: flex;
     justify-content: center;
   }
-  
 
   header .menu a {
     font-size: 25px;
@@ -313,34 +306,29 @@ box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.28);
     padding-right: 2rem;
   }
 
-  .cards{
+  .cards {
     margin-top: 2rem;
   }
-
 }
-.donuts-page{
+.donuts-page {
   background-color: #fcbad3;
 }
 
-
-
-
-
-@media(max-width: 59em) and (min-width:40em) {
+@media (max-width: 59em) and (min-width: 40em) {
   .central {
     max-width: 720px;
   }
   .img-chef {
     width: 90%;
     padding-left: 122px;
-}
-  .logo-img{
-  max-width: 134%;
-}
-.central .logo{
-  margin-right: 1rem;
-}
-  .cards{
+  }
+  .logo-img {
+    max-width: 134%;
+  }
+  .central .logo {
+    margin-right: 1rem;
+  }
+  .cards {
     margin-top: 2rem;
   }
 
@@ -370,12 +358,12 @@ box-shadow: -4px 10px 42px 0px rgba(0,0,0,0.28);
   }
 
   .insta,
-  .wpp{
+  .wpp {
     width: 20%;
   }
 }
 
-@media (min-width: 62em){
+@media (min-width: 62em) {
   .central {
     max-width: 960px;
   }

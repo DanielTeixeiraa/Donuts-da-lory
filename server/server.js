@@ -1,14 +1,14 @@
 const express = require("express");             
-const nunjucks = require("nunjucks");                       
-const PORT = process.env.PORT ||  5000;             
+const nunjucks = require("nunjucks");                        
+const PORT = process.env.PORT ||  5000;               
          
-const app = express();     
+const app = express();      
 const data = require("./data");   
 
 
 app.use(express.static("../views/public")); 
    
-app.set("view engine", "njk");    
+app.set("view engine", "njk");         
     
 nunjucks.configure("../views",{      
   express: app,

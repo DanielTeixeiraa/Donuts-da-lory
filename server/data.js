@@ -1,7 +1,7 @@
 module.exports = [   
   {                     
     id:"1",               
-    info:"Donuts de Churros",      
+    info:"Donut de Churros",      
     title:"por Lorena Pessanha",
     whatsapp:'https://api.whatsapp.com/send?1=pt_BR&phone=55000000&text=Ola%20gostaria%20de%20um%20Donut%20de%20Churros',
     comentario:{
@@ -11,7 +11,7 @@ module.exports = [
   },  
   {    
     id:"2",
-    info:"Donuts de Café",
+    info:"Donut de Café",
     title:"por Lorena Pessanha",
     whatsapp:'https://api.whatsapp.com/send?1=pt_BR&phone=55000000&text=Ola%20gostaria%20de%20um%20Donut%20de%20Café',
     comentario:{
@@ -21,7 +21,7 @@ module.exports = [
   }, 
   {
     id:"3",
-    info:"Donuts de Morango",
+    info:"Donut de Morango",
     title:"por Lorena Pessanha",
     whatsapp:'https://api.whatsapp.com/send?1=pt_BR&phone=55000000&text=Ola%20gostaria%20de%20um%20Donut%20de%20Morango',
     comentario:{
@@ -31,7 +31,7 @@ module.exports = [
   },
   {
     id:"4",
-    info:"Donuts de Nutella",
+    info:"Donut de Nutella",
     title:"por Lorena Pessanha",
     whatsapp:'https://api.whatsapp.com/send?1=pt_BR&phone=55000000&text=Ola%20gostaria%20de%20um%20Donut%20de%20Nutella',
     comentario:{
@@ -41,7 +41,7 @@ module.exports = [
   }, 
   { 
     id:"5",
-    info:"Donuts de Oreo",
+    info:"Donut de Oreo",
     title:"por Lorena Pessanha",
     whatsapp:'https://api.whatsapp.com/send?1=pt_BR&phone=55000000&text=Ola%20gostaria%20de%20um%20Donut%20de%20Nutella',
     comentario:{
@@ -51,7 +51,7 @@ module.exports = [
   },
   {
     id:"6",
-    info:"Donuts de Coco",
+    info:"Donut de Coco",
     title:"por Lorena Pessanha",
     whatsapp:'https://api.whatsapp.com/send?1=pt_BR&phone=55000000&text=Ola%20gostaria%20de%20um%20Donut%20de%20Coco',
     comentario:{
@@ -61,7 +61,7 @@ module.exports = [
   },
   {
     id:"7",     
-    info:"Donuts de Oreo", 
+    info:"Donut de Oreo", 
     title:"por Lorena Pessanha", 
     whatsapp:'https://api.whatsapp.com/send?1=pt_BR&phone=55000000&text=Ola%20gostaria%20de%20um%20Donut%20de%20Oreo',
     comentario:{
@@ -71,7 +71,7 @@ module.exports = [
   },
   {
     id:"8", 
-    info:"Donuts de Nutella", 
+    info:"Donut de Nutella", 
     title:"por Lorena Pessanha",
     whatsapp:'https://api.whatsapp.com/send?1=pt_BR&phone=55000000&text=Ola%20gostaria%20de%20um%20Donut%20de%20Nutella',
     comentario:{
@@ -81,7 +81,7 @@ module.exports = [
   },
   { 
     id:'9',
-    info:"Donuts de Morango",
+    info:"Donut de Morango",
     title:"por Lorena Pessanha",
     whatsapp:'https://api.whatsapp.com/send?1=pt_BR&phone=55000000&text=Ola%20gostaria%20de%20um%20Donut%20de%20Morango',
     comentario:{
