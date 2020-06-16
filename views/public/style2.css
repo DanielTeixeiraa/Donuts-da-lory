@@ -96,8 +96,8 @@
 }
 
 .btn-animated {
-    animation: moveInBottom 5s ease-out;
-    animation-fill-mode: backwards;
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
 }
 
 @keyframes moveInBottom {

@@ -1,11 +1,12 @@
 const express = require("express");             
 const nunjucks = require("nunjucks");                        
-const PORT = process.env.PORT ||  5000;               
+const PORT = process.env.PORT ||  5000;
+const cors = require('cors')               
          
 const app = express();      
 const data = require("./data");   
 
-
+app.use(cors());
 app.use(express.static("../views/public")); 
    
 app.set("view engine", "njk");         
